@@ -12,12 +12,31 @@ A lightweight desktop application built with C++ and Qt6 that converts values be
 ## 3. Prerequisites & Installation
 Before building and running the application, ensure you have **Qt6**, **CMake**, and a C++ compiler installed:
 
-* **On Linux (Ubuntu/Debian):**
+### Linux
+* **Ubuntu / Debian / Mint:**
   ```bash
   sudo apt-get update && sudo apt-get install qt6-base-dev cmake build-essential
   ```
-* **On Windows:**
-  Download and install **Qt6** (along with MinGW and CMake) from the [Official Qt Download Page](https://qt.io).
+* **Fedora / RHEL / CentOS:**
+  ```bash
+  sudo dnf install qt6-qtbase-devel cmake gcc-c++
+  ```
+* **Arch Linux / Manjaro:**
+  ```bash
+  sudo pacman -S qt6-base cmake base-devel
+  ```
+* **openSUSE:**
+  ```bash
+  sudo zypper install qt6-base-devel cmake gcc-c++
+  ```
+* **Alpine Linux:**
+  ```bash
+  sudo apk add qt6-qtbase-dev cmake build-base
+  ```
+* **Other Distributions:** Install via the [Official Qt Online Installer](https://qt.io) or your distribution's package manager.
+
+### Windows
+Download and install **Qt6** (along with MinGW and CMake) from the [Official Qt Download Page](https://qt.io).
 
 ## 4. Build & Run
 
