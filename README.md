@@ -53,11 +53,11 @@ cmake --build .
 ### 2. Run the Application
 * **On Linux:**
   ```bash
-  ./UnitsConverter
+  ./unitConverter
   ```
 * **On Windows (CMD):**
   ```cmd
-  UnitsConverter.exe
+  unitsConverter.exe
   ```
 
 ## 5. Version
